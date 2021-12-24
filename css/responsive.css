@@ -1,0 +1,135 @@
+/** Responsive css**/
+
+@media screen and (max-width: 1199px) {
+    .footer-sm iframe{width: 100%;}
+    .footer-sm .footerSocial a{width: 37.5px;height: 37.5px;}
+    .sass_banner {padding: 50% 0;}
+}
+@media screen and (max-width: 1024px) {
+    .agency.about .col-sm-7 {flex: 0 0 70%;max-width: 70%;}
+    .agency.about .col-lg-6, .agency .col-md-6{flex: 0 0 100%;max-width: 100%;}
+    .agency.about .imgsec .col-md-6{flex: 0 0 50%;max-width: 50%;}
+    .serviceBox .col-lg-4{flex: 0 0 50%;max-width: 50%;}
+    .faqBox .img{margin-top:30px;}
+    .aboutProject .col-lg-8, .aboutProject .col-lg-4{flex: 0 0 100%;max-width: 100%;}
+    .aboutProject h2 br{display: none;}
+    .aboutProject .btn-curve{margin-top: 20px;}
+    .footerTop .col-lg-6{flex: 0 0 100%;max-width: 100%;}
+    .footerTop .col-lg-3{flex: 0 0 40%;max-width: 40%;}
+    .aboutIdea .col-lg-6, .aboutIdea .col-lg-4{flex: 0 0 100%;max-width: 100%;}
+    .aboutIdea h2{margin-bottom: 20px;}
+    .process.videoSec .col-lg-5{flex: 0 0 100%;max-width: 100%;}
+    .process.videoSec .offset-lg-7{margin-left: 0;}
+    .process .bg-box {position: unset;}
+    .process .bg-box {position: unset;display: block;width: 100%;}
+    .process .background{position: unset;display: block;width: 100%;height: 300px;background-position: center 470px;}
+    .process .background .vid{left: 42%;}
+    .outcome_section .col-lg-4{flex: 0 0 50%;max-width: 50%;}
+    .ideation_faq .col-lg-6{flex: 0 0 100%;max-width: 100%;}
+    .ideation_faq .faqCard{margin-top: 30px;}
+    .outcome_section .items p{min-height: 90px;}
+    .outcome_section .col-lg-4:nth-child(1){margin-bottom: 20px;}
+    .ux_research .col-lg-6{flex: 0 0 100%;max-width: 100%;}
+    #chartdiv{margin-top: 10%;}
+    .research_banner .col-lg-4, .research_banner .col-lg-2{flex: 0 0 50%;max-width: 50%;}    
+    .research_banner .col-lg-4{margin-bottom: 30px;}
+    .research_slideBox p br{display: none;}
+    .design_faq .col-lg-7,  .design_faq .col-lg-5{flex: 0 0 100%;max-width: 100%;}
+    .design_faq .col-lg-5 .content{margin-top: 10%;}
+    .skillBox .col-lg-7, .skillBox .col-lg-5{flex: 0 0 100%;max-width: 100%;}
+    .skillBox .agency .content{margin-bottom: 30px; }
+    .saasBox .col-lg-4{flex: 0 0 50%;max-width: 50%;}
+    .aboutIdea .col-lg-7, .aboutIdea .col-lg-5{flex: 0 0 100%;max-width: 100%;}
+    .saasText{margin-top: 30px;}
+    .countryTabs .col-lg-4.draw-hover{flex: 0 0 100%;max-width: 100%;}
+    .patners_banner {padding: 35% 0 !important;}
+    .patners_banner .col-lg-7{flex: 0 0 100%;max-width: 100%;}
+    .patners_banner .col-lg-4{display: none;}
+    .contact .col-lg-5, .contact .col-lg-6{flex: 0 0 100%;max-width: 100%;}
+    .contact .offset-lg-1{margin-left: 0;}
+    #contact-form .row .col-lg-6{flex: 0 0 50%;max-width: 50%;}
+    .process .background{position: relative;height: 515px;}
+    .process .background .vid{top: calc(50% - 90px);}
+    .agency.faqBox .col-lg-6{flex: 0 0 100%;max-width: 100%;}
+    .research_banner .slide-ideation{padding:30% 0 !important;}
+    .sass_banner .col-lg-7, .sass_banner .col-lg-5{flex: 0 0 100%;max-width: 100%;}
+    .sass_banner {padding: 25% 0;}
+    .sass_sec2 .col-lg-8, .sass_sec2 .col-lg-4{flex: 0 0 100%;max-width: 100%;}
+}
+@media screen and (max-width: 991px) {
+    .agency.about .col-sm-7 {flex: 0 0 94%;max-width: 94%;}
+    .portfolio_section .col-md-7, .portfolio_section .col-md-5, .portfolio_section .col-md-6{flex: 0 0 100%;max-width: 100%;}
+    .portfolio_section .col-md-6:nth-child(2) img{margin-top: 30px;}
+    .portfolio_section .col-md-6:nth-child(1) img{margin-bottom: 30px;}
+    .porfolio_info{margin-top: 30px;}
+    .serviceBox .col-md-6{flex: 0 0 100%;max-width: 100%;}
+    .customer_section .col-md-7,.customer_section .col-md-5{flex: 0 0 100%;max-width: 100%;}
+    .designHeader .cont {padding: 200px 0 0;}
+    .designHeader .cont1{padding: 85px 0;}
+    .designProcess h2{font-size: 28px;}
+    .patners_banner {padding: 25% 0 !important;}
+    .requirementBox .col-md-6{flex: 0 0 100%;max-width: 100%;}
+    .requirementBox .col-md-6 img{margin-bottom: 50px;}
+    .contact_banner h1{font-size:48px;}
+    .research_banner .slide-ideation {padding: 15% 0 !important;}
+    .contact_requirement.call-action.nogif{padding-bottom: 0;}
+    .design_tabs .clutch-widget iframe {height: 1331px !important;}
+}
+@media screen and (max-width: 767px) {
+    .agency.about .imgsec .imgtwo {display: inherit;}
+    .agency.about .imgsec .imgone:after{display: none;}
+    .outcome_section .col-lg-4:nth-child(2){margin-bottom: 20px;}
+    .outcome_section .col-lg-4{flex: 0 0 100%;max-width: 100%;}
+    .outcome_section .items p {min-height: auto;}
+    .topnav .logo {width: 121px;}
+    .saasBox .col-lg-4 {flex: 0 0 100%;max-width: 100%;}
+
+}
+@media screen and (max-width: 480px) {
+    .caption h1{font-size: 38px;}
+    .caption h6{font-size: 16px;letter-spacing: 0px;}
+    .agency.about .valign .row{margin: 0 15px;}
+    .porfolio_info h2{font-size: 38px;}
+    .porfolio_info h3{margin-top: 15px;font-size: 28px;}
+    .porfolio_info p{margin-top: 15px;}
+    .porfolio_info .list-text{font-size: 16px;}
+    .serviceBox .col-lg-4 {flex: 0 0 100%;max-width: 100%;}
+    .faqBox .faqCard .card .card-header .btn-header-link{white-space: inherit;}
+    .designProcess .sub-title{padding-left: 0;}
+    .designProcess h2 {font-size: 26px;}
+    .footerTop .col-lg-3 {flex: 0 0 100%;max-width: 100%;text-align: left;}
+    .footer-sm .btn-curve{margin-bottom:20px;}
+    .copyrightBox {padding: 0 15px;}
+    .footer-sm .footerSocial ul{flex-wrap: wrap;}
+    .aboutIdea h2{font-size: 32px;}
+    .aboutIdea .row:nth-child(2){margin:0 5px;}
+    .outcome_section h4{font-size: 20px;}
+    .research_banner .col-lg-4, .research_banner .col-lg-2{flex: 0 0 100%;max-width: 100%;}    
+    .research_banner .col-lg-2{margin-bottom: 30px;}
+    .designHeader h4{font-size: 17px;line-height: 1.2;}
+    .design_faq.agency .content h4{font-size: 24px;line-height: 1.2;}
+    .design_coverage .content h4{font-size: 28px;line-height: 1.2;}
+    .saasText1{font-size: 46px !important; margin-bottom: 30px;}
+    .sass_banner h4{margin: 50px 0 15px;}
+    .skillBox {padding: 100px 0;}
+    .skillbar{width: 100%;}
+    .skillBox h4 {font-size: 20px;}
+    .skillBox h2 {font-size: 24px;line-height: 1.2;letter-spacing: 1px;}
+    .agency .content ul li {margin-top: 20px;} 
+    .saasBox .row{margin: 0 5px;}
+    .aboutIdea .row{margin: 0 5px;}
+    .research_banner h1 {font-size: 28px;}
+    .designHeader h1{font-size: 33px;}
+    .patners_banner.designHeader .process .content ul{display: inline-block; width: 100%;}
+    .patners_banner.designHeader .process .content ul li:first-child{margin-bottom: 30px;}
+    .contact_banner h1 {font-size: 30px;line-height: 36px !important;padding: 15px 0;}
+    #contact-form .row .col-lg-6 {flex: 0 0 100%;max-width: 100%;}
+    .contact .formHead h2{margin-top:15px;}
+    .contact_call .mt-80{margin-top: 0px !important;}
+    .contact_call .intro.mb-80{margin-bottom: 0px !important;}
+    .process .background .vid {left: 37%;}
+    .ideation_bannner .caption h1{font-size: 48px;margin-left: 0;margin-bottom:20px;margin-top: 60%;}
+    .research_banner .slide-ideation {padding: 35% 0 0 !important;}
+    .ux_research.faqBox .process .content{padding:40px 10px;}
+    .sass_banner {padding: 40.5% 0;}
+}
